@@ -1,0 +1,119 @@
+html, body{
+    margin:0px; 
+    padding:0px;
+}
+
+#navigation-wrapper {
+	background-color: #607D8B;
+    border-top: 10px solid #78909C;
+    color:white;
+    height: 20px;
+    padding-top: 40px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#menu {
+    float:right;
+    margin: 0;
+    padding: 0;
+}
+
+ul#menu li {
+    display:inline;
+    margin-left: 40px;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+#section {
+	background-color: #607D8B;
+    height: auto; 	
+    padding-top: 40px;
+}
+
+h1 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+h2 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#email {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+#emailLink {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+    font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #78909C;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+#content {
+	background-color: #FFFFFF;
+    height: 280px; 	
+}
+
+#footer {
+	background-color: #CFD8DC;
+    height: 280px; 	 	 
+}
+
+#navLink {    
+    font-family: "Din Rounded Pro", "Helvetic", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: none;
+}
