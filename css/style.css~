@@ -1,7 +1,7 @@
 #header {
 	margin-top: 50px;
 	height: 460px;
-	background-color: #3F51B5;
+	background-color: #673AB7;
     font-size: 0px;
 }
 
