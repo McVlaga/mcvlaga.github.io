@@ -1,72 +1,7 @@
-html, body {
-	margin: 0;
-	padding: 0;
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: inherit;
-	position: relative;
-}
-
-.shadow {
-	-moz-box-shadow:0 0 8px 0 black;
-	-webkit-box-shadow:0 0 8px 0 black;
-	box-shadow:0 0 8px 0 black;
-}
-
-#nav-bar {
-	display: inline-block;
-	z-index:9999;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-	width: 100%;
-	height: 50px;
-	background-color: #512DA8;
-}
-	#home-link {    
-    	display: inline-block;
-    	padding-left: 15px;
-    	padding-right: 15px;
-    	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    	font-size: 20px;
-    	font-weight: 500;
-    	color: #FFFFFF;
-    	height: 50px;
-    	line-height: 50px;
-    	white-space: nowrap;
-	}
-
-	#nav-menu {
-		float: right;
-    	font-size: 0;
-	}
-
-		div.nav-button {
-			display: inline-block;
-			text-align: center;
-		}
-
-		#nav-link {
-    		display: inline-block;
-    		padding-left: 15px;
-    		padding-right: 15px;
-    		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    		font-size: 16px;
-    		font-weight: 500;
-    		color: #FFFFFF;
-    		height: 50px;
-    		line-height: 50px;
-    		white-space: nowrap;
-		}
-
 #header {
 	margin-top: 50px;
 	height: 240px;
-	background-color: #673AB7;
+	background-color: #3F51B5;
     font-size: 0px;
 }
 	
@@ -88,7 +23,7 @@ html, body {
     	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     	font-size: 26px;
     	font-weight: 500;
-    	color: #D1C4E9;
+    	color: #C5CAE9;
 	}
 
 #section {
@@ -147,7 +82,7 @@ html, body {
 		}
 
 			#section-overview a:hover {
-				color: #512DA8;
+				color: #303F9F;
 			}
 
 			.normal {
@@ -163,76 +98,3 @@ html, body {
 			margin-top: -280px;
 			position:fixed;
 		}
-
-#separator {
-	height: 1px;
-	background-color: #DDDDDD;
-}
-
-#footer {
-	height: 200px;
-	background-color: #FFFFFF;
-}
-
-	div.social-middle {
-  		margin: 0 auto;
-		width: 300px;
-		height: inherit;
-    	font-size: 0px;
-		text-align: center;
-	}
-
-		.social-link {
-    		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    		font-size: 16px;
-    		font-weight: 500;
-    		color: #555;
-			padding-bottom: 40px;
-		}
-		
-	.logo {
-		font-size: 85px;
-		padding: 0;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 40px;
-		margin-bottom: 40px;
-    	border-style: solid;
-    	border-width: 1px;
-    	border-radius: 20px;
-		height: 120px;
-		line-height: 120px;
-		white-space: nowrap;
-		width: 120px;
-		color: black;
-    	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    	font-weight: 300;
-	}
-	
-.center-text {
-	text-align: center;
-}
-
-.selected {
-    background: #4527A0;
-}
-
-.fade:hover { 
-    background: #4527A0;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:active {
-    color: #FFFFFF;
-}
-
-a:hover {
-    text-decoration: none;
-}

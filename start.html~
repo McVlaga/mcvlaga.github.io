@@ -41,7 +41,7 @@
 			<div class="grid__col grid__col--3-of-4">
 				<div id="section1" class="section">
 					<div class="section-overview" style="display: none;">
-						<a href="javascript:void(0)" id="section-link-1" class="normal" onClick="scroll(this.id)"><b><font color="#3F51B5">Download</font></b></a>
+						<a href="javascript:void(0)" id="section-link-1" class="normal" onClick="scroll(this.id)"><b><font color="#673AB7">Download</font></b></a>
 						<a href="javascript:void(0)" id="section-link-2" class="normal" onClick="scroll(this.id)">What's included</a>
 						<a href="javascript:void(0)" id="section-link-3" class="normal" onClick="scroll(this.id)">Compiling CSS and JavaScript</a>
 						<a href="javascript:void(0)" id="section-link-4" class="normal" onClick="scroll(this.id)">Basic template</a>
@@ -56,7 +56,7 @@
 				<div id="section2" class="section">
 					<div class="section-overview" style="display: none;">
 						<a href="javascript:void(0)" id="section-link-1" class="normal" onClick="scroll(this.id)">Download</a>
-						<a href="javascript:void(0)" id="section-link-2" class="normal" onClick="scroll(this.id)"><b><font color="#3F51B5">What's included</font></b></a>
+						<a href="javascript:void(0)" id="section-link-2" class="normal" onClick="scroll(this.id)"><b><font color="#673AB7">What's included</font></b></a>
 						<a href="javascript:void(0)" id="section-link-3" class="normal" onClick="scroll(this.id)">Compiling CSS and JavaScript</a>
 						<a href="javascript:void(0)" id="section-link-4" class="normal" onClick="scroll(this.id)">Basic template</a>
 						<a href="javascript:void(0)" id="section-link-5" class="normal" onClick="scroll(this.id)">Examples</a>
@@ -71,7 +71,7 @@
 					<div class="section-overview" style="display: none;">
 						<a href="javascript:void(0)" id="section-link-1" class="normal" onClick="scroll(this.id)">Download</a>
 						<a href="javascript:void(0)" id="section-link-2" class="normal" onClick="scroll(this.id)">What's included</a>
-						<a href="javascript:void(0)" id="section-link-3" class="normal" onClick="scroll(this.id)"><b><font color="#3F51B5">Compiling CSS and JavaScript</font></b></a>
+						<a href="javascript:void(0)" id="section-link-3" class="normal" onClick="scroll(this.id)"><b><font color="#673AB7">Compiling CSS and JavaScript</font></b></a>
 						<a href="javascript:void(0)" id="section-link-4" class="normal" onClick="scroll(this.id)">Basic template</a>
 						<a href="javascript:void(0)" id="section-link-5" class="normal" onClick="scroll(this.id)">Examples</a>
 						<a href="javascript:void(0)" id="section-link-6" class="normal" onClick="scroll(this.id)">Tools</a>
@@ -86,7 +86,7 @@
 						<a href="javascript:void(0)" id="section-link-1" class="normal" onClick="scroll(this.id)">Download</a>
 						<a href="javascript:void(0)" id="section-link-2" class="normal" onClick="scroll(this.id)">What's included</a>
 						<a href="javascript:void(0)" id="section-link-3" class="normal" onClick="scroll(this.id)">Compiling CSS and JavaScript</a>
-						<a href="javascript:void(0)" id="section-link-4" class="normal" onClick="scroll(this.id)"><b><font color="#3F51B5">Basic template</font></b></a>
+						<a href="javascript:void(0)" id="section-link-4" class="normal" onClick="scroll(this.id)"><b><font color="#673AB7">Basic template</font></b></a>
 						<a href="javascript:void(0)" id="section-link-5" class="normal" onClick="scroll(this.id)">Examples</a>
 						<a href="javascript:void(0)" id="section-link-6" class="normal" onClick="scroll(this.id)">Tools</a>
 						<a href="javascript:void(0)" id="section-link-7" class="normal" onClick="scroll(this.id)">Community</a>
@@ -101,7 +101,7 @@
 						<a href="javascript:void(0)" id="section-link-2" class="normal" onClick="scroll(this.id)">What's included</a>
 						<a href="javascript:void(0)" id="section-link-3" class="normal" onClick="scroll(this.id)">Compiling CSS and JavaScript</a>
 						<a href="javascript:void(0)" id="section-link-4" class="normal" onClick="scroll(this.id)">Basic template</a>
-						<a href="javascript:void(0)" id="section-link-5" class="normal" onClick="scroll(this.id)"><b><font color="#3F51B5">Examples</font></b></a>
+						<a href="javascript:void(0)" id="section-link-5" class="normal" onClick="scroll(this.id)"><b><font color="#673AB7">Examples</font></b></a>
 						<a href="javascript:void(0)" id="section-link-6" class="normal" onClick="scroll(this.id)">Tools</a>
 						<a href="javascript:void(0)" id="section-link-7" class="normal" onClick="scroll(this.id)">Community</a>
 						<a href="javascript:void(0)" id="section-link-8" class="normal" onClick="scroll(this.id)">Disabling responsiveness</a>
@@ -116,7 +116,7 @@
 						<a href="javascript:void(0)" id="section-link-3" class="normal" onClick="scroll(this.id)">Compiling CSS and JavaScript</a>
 						<a href="javascript:void(0)" id="section-link-4" class="normal" onClick="scroll(this.id)">Basic template</a>
 						<a href="javascript:void(0)" id="section-link-5" class="normal" onClick="scroll(this.id)">Examples</a>
-						<a href="javascript:void(0)" id="section-link-6" class="normal" onClick="scroll(this.id)"><b><font color="#3F51B5">Tools</font></b></a>
+						<a href="javascript:void(0)" id="section-link-6" class="normal" onClick="scroll(this.id)"><b><font color="#673AB7">Tools</font></b></a>
 						<a href="javascript:void(0)" id="section-link-7" class="normal" onClick="scroll(this.id)">Community</a>
 						<a href="javascript:void(0)" id="section-link-8" class="normal" onClick="scroll(this.id)">Disabling responsiveness</a>
 					</div>
@@ -131,7 +131,7 @@
 						<a href="javascript:void(0)" id="section-link-4" class="normal" onClick="scroll(this.id)">Basic template</a>
 						<a href="javascript:void(0)" id="section-link-5" class="normal" onClick="scroll(this.id)">Examples</a>
 						<a href="javascript:void(0)" id="section-link-6" class="normal" onClick="scroll(this.id)">Tools</a>
-						<a href="javascript:void(0)" id="section-link-7" class="normal" onClick="scroll(this.id)"><b><font color="#3F51B5">Community</font></b></a>
+						<a href="javascript:void(0)" id="section-link-7" class="normal" onClick="scroll(this.id)"><b><font color="#673AB7">Community</font></b></a>
 						<a href="javascript:void(0)" id="section-link-8" class="normal" onClick="scroll(this.id)">Disabling responsiveness</a>
 					</div>
 					<h1>Community</h1>
@@ -146,7 +146,7 @@
 						<a href="javascript:void(0)" id="section-link-5" class="normal" onClick="scroll(this.id)">Examples</a>
 						<a href="javascript:void(0)" id="section-link-6" class="normal" onClick="scroll(this.id)">Tools</a>
 						<a href="javascript:void(0)" id="section-link-7" class="normal" onClick="scroll(this.id)">Community</a>
-						<a href="javascript:void(0)" id="section-link-8" class="normal" onClick="scroll(this.id)"><b><font color="#3F51B5">Disabling responsiveness</font></b></a>
+						<a href="javascript:void(0)" id="section-link-8" class="normal" onClick="scroll(this.id)"><b><font color="#673AB7">Disabling responsiveness</font></b></a>
 					</div>
 					<h1>Disabling responsiveness</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.</p>

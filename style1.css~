@@ -23,7 +23,7 @@
     	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     	font-size: 26px;
     	font-weight: 500;
-    	color: #C5CAE9;
+    	color: #D1C4E9;
 	}
 
 #section {
@@ -82,7 +82,7 @@
 		}
 
 			#section-overview a:hover {
-				color: #303F9F;
+				color: #512DA8;
 			}
 
 			.normal {
@@ -98,3 +98,76 @@
 			margin-top: -280px;
 			position:fixed;
 		}
+
+#separator {
+	height: 1px;
+	background-color: #DDDDDD;
+}
+
+#footer {
+	height: 200px;
+	background-color: #FFFFFF;
+}
+
+	div.social-middle {
+  		margin: 0 auto;
+		width: 300px;
+		height: inherit;
+    	font-size: 0px;
+		text-align: center;
+	}
+
+		.social-link {
+    		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    		font-size: 16px;
+    		font-weight: 500;
+    		color: #555;
+			padding-bottom: 40px;
+		}
+		
+	.logo {
+		font-size: 85px;
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 40px;
+		margin-bottom: 40px;
+    	border-style: solid;
+    	border-width: 1px;
+    	border-radius: 20px;
+		height: 120px;
+		line-height: 120px;
+		white-space: nowrap;
+		width: 120px;
+		color: black;
+    	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    	font-weight: 300;
+	}
+	
+.center-text {
+	text-align: center;
+}
+
+.selected {
+    background: #1A237E;
+}
+
+.fade:hover { 
+    background: #1A237E;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: none;
+}

@@ -42,12 +42,12 @@
 				<p>Here</p>
 			</div>
 			<div class="grid__col grid__col--1-of-3 center-text">
-				<h2>Here</h2>
-				<p>Here</p>
+				<h2>One framework, every device.</h2>
+				<p>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p>
 			</div>
 			<div class="grid__col grid__col--1-of-3 center-text">
-				<h2>Here</h2>
-				<p>Here</p>
+				<h2>Full of features</h2>
+				<p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
 			</div>
 		</div>
 	</div>

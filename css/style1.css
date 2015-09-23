@@ -23,7 +23,7 @@
     	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     	font-size: 26px;
     	font-weight: 500;
-    	color: #C5CAE9;
+    	color: #D1C4E9;
 	}
 
 #section {
@@ -82,7 +82,7 @@
 		}
 
 			#section-overview a:hover {
-				color: #303F9F;
+				color: #512DA8;
 			}
 
 			.normal {
