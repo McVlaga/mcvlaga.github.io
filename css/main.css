@@ -74,38 +74,37 @@ html, body {
 }
 
 	div.social-middle {
-  		margin: 0 auto;
-		width: 300px;
-		height: inherit;
-    	font-size: 0px;
-		text-align: center;
-	}
-
-		.social-link {
-    		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    		font-size: 16px;
-    		font-weight: 500;
-    		color: #555;
-			padding-bottom: 40px;
-		}
-		
-	.logo {
-		font-size: 85px;
-		padding: 0;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 40px;
-		margin-bottom: 40px;
-    	border-style: solid;
-    	border-width: 1px;
-    	border-radius: 20px;
-		height: 120px;
-		line-height: 120px;
-		white-space: nowrap;
-		width: 120px;
-		color: black;
-    	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    	font-weight: 300;
+		width: 360px;
+		font-size: 0;
+	}
+	
+	#gh {
+		display: inline-block;
+		height: 60px;
+		width: 60px;
+		margin-top: 70px;
+		background-image:url(/images/gh.png);
+    	background-repeat: no-repeat;
+	}
+	
+	#so {
+		display: inline-block;
+		height: 60px;
+		width: 60px;
+		margin-top: 70px;
+		background-image:url(/images/so.png);
+    	background-repeat: no-repeat;
+	}
+	
+	#li {
+		display: inline-block;
+		height: 60px;
+		width: 60px;
+		margin-top: 70px;
+		background-image:url(/images/li.png);
+    	background-repeat: no-repeat;
 	}
 	
 .center-text {
