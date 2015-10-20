@@ -20,44 +20,36 @@
 		-moz-border-radius: 150px;
 	}
 	
-	h1 {
-    	display: inline-block;
-    	padding-left: 100px;
-    	padding-right: 50px;
+	h1#welcome {
+		padding-top: 140px;
+    	padding-left: 0px;
+    	padding-right: 0px;
 		margin: 0;
     	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    	font-size: 25px;
+    	font-size: 50px;
     	font-weight: 500;
     	color: #FFFFFF;
-  		display: flex;
-  		justify-content: center;
-  		flex-direction: column;
-  		height: 400px;
+	}
+
+	h2#welcome {
+    	padding-left: 0px;
+    	padding-right: 85px;
+		margin: 0;
+    	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    	font-size: 26px;
+    	font-weight: 500;
+    	color: #C5CAE9;
 	}
 
 #section {
 	height: auto;
-	background-color: #FFFFFF;
-	margin-bottom: 100px;
-	margin-top: 105px;
+	background-color: #FAFAFA;
+	padding-bottom: 100px;
+	padding-top: 105px;
 }
 
 	img.image {
 		width: 300px;
-	}
-
-	h2 {
-    	display: inline-block;
-    	padding-left: 15px;
-    	padding-right: 15px;
-		margin-bottom: 0;
-		margin-top: 0;
-    	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    	font-weight: 500;
-    	color: #000000;
-    	height: 50px;
-    	line-height: 50px;
-    	white-space: nowrap;
 	}
 
 	#section p {

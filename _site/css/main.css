@@ -63,14 +63,16 @@ html, body {
     		white-space: nowrap;
 		}
 
-#separator {
+.separator {
 	height: 1px;
 	background-color: #DDDDDD;
+	margin-top: 100px;
+	margin-bottom: 80px;
 }
 
 #footer {
 	height: 200px;
-	background-color: #FFFFFF;
+	background-color: #3F51B5;
 }
 
 	div.social-middle {
