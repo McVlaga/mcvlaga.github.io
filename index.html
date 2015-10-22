@@ -59,6 +59,7 @@
 			<div class="chip"><p class="title">HTML</p></div>
 			<div class="chip"><p class="title">CSS</p></div>
 			<div class="chip"><p class="title">JavaScript</p></div>
+			<div class="chip"><p class="title">jQuery</p></div>
 			<div class="chip"><p class="title">PHP</p></div>
 			<div class="chip"><p class="title">MySQL</p></div>
 			<div class="chip"><p class="title">Git</p></div>
@@ -100,32 +101,18 @@
 		};
 
 		var isTop = true;
-
-		var bigAvaPos;
-        var bigAvaWid;
-        var bigAvaHei;
         var avatar;
-        var avatar1;
+        var move;
 
 		function onScrolled() {
-    		if (window.scrollY > 70 && isTop) {
+    		if (window.scrollY > 60 && isTop) {
 				isTop = false;
-				bigAvaPos = $("#avatar").position();
-				bigAvaWid = $("#avatar").css("width");
-				bigAvaHei = $("#avatar").css("height");
-        		//document.getElementById("avatar-holder").className = 'anim-to-nav-bar';
-                var div2Pos = $("#avatar-small").offset();
-                var div2Width = $("#avatar-small").css("width");
-                var div2Height = $("#avatar-small").css("height");
-        		/*$('#avatar').css('position','fixed');
-                $("#avatar").animate({top:div2Pos.top, width:div2Width, height:div2Height}, 200, function() {
-        			document.getElementById("avatar-small").style.display = 'inline-block';
-  				});*/
+				if(move) move.stop();
 				
     			var pos = $("#avatar-holder").offset();
     			avatar = $("#avatar").detach();
     			$("body").prepend(avatar);
-    			var move = $("#avatar").css({
+    			move = $("#avatar").css({
         			"position": "fixed",
         			"z-index": "9999",
         			"left": pos.left,
@@ -133,36 +120,36 @@
     			});
     			var posLink = $("#home-link").offset();
     			move.animate({
-        			"width": div2Width, 
-        			"height": div2Height,
+        			"width": 30, 
+        			"height": 30,
         			"top": 10,
         			"left": posLink.left + 15
-    			}, 150, function(){
-        			document.getElementById("avatar").style.position = 'static';
+    			}, 200, function(){
+        			document.getElementById("avatar").style.position = 'absolute';
         			document.getElementById("avatar").style.display = 'inline-block';
         			document.getElementById("avatar").style.top = 0;
         			document.getElementById("avatar").style.marginTop = 10;
         			document.getElementById("avatar").style.marginRight = 15;
         			document.getElementById("avatar").style.float = 'left';
+        			document.getElementById("home-link").style.position = 'relative';
     				avatar.prependTo("#home-link");
-        			//document.getElementById("avatar-small").style.display = 'inline-block';
-        			//document.getElementById("avatar").style.display = 'none';
+        			document.getElementById("avatar-small").style.display = 'inline-block';
+        			document.getElementById("avatar").style.display = 'none';
     			});
-    		} else if(window.scrollY <= 70 && !isTop) {
+    		} else if(window.scrollY <= 60 && !isTop) {
 				isTop = true;
-				var huy = $("header").find(".container");
-				var huyPosition = huy.position();
+				if(move) move.stop();
     			var pos = $("#avatar-holder").position();
-    			//document.getElementById('avatar').style="";
-    			var posLink = $("#avatar").offset();
-    			var move = $("#avatar").css({
+    			move = $("#avatar").css({
     				"position": "absolute",
     				"display": "inline-block",
-    				"left": 0,
+    				"left": 15, 
+    				"top": -50 + window.scrollY,
         			"z-index": "999"
     			});
     			avatar.prependTo("#avatar-holder");
-                move.animate({top: pos.top + 70, left: pos.left + 100, width:300, height:300, marginTop: 0, marginRight: 0}, 150, function(){
+        		document.getElementById("avatar-small").style.display = 'none';
+                move.animate({top: pos.top + 70, left: pos.left + 100, width:300, height:300, marginTop: 0, marginRight: 0}, 200, function(){
         			document.getElementById("avatar").style.position = 'static';
     			});
     		}
