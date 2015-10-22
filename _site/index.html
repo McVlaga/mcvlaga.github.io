@@ -11,7 +11,7 @@
 	<div id="nav-bar" class="shadow">
 		<div class="container">
 			<a href="index.html" id="home-link">
-				<img src="images/me-small.jpg" id="avatar-small" style="display: none;"></img>
+				<img src="images/me-small.jpg" id="avatar-small" style="display: none; opacity: 0;"></img>
 				Andrei Masin
 			</a>
 			<div id="nav-menu">
@@ -33,12 +33,13 @@
 
 	<div id="header">
 		<div class="container">
-			<div class="grid__col grid__col--5-of-12">
+			<div id="margin-hide" style="display: none; height: 70px; z-index: -5;"></div>
+			<div class="grid__col grid__col--5-of-12" id="left">
 				<div id="avatar-holder">
 					<img src="images/me.jpg" id="avatar"></img>
 				</div>
 			</div>
-			<div class="grid__col grid__col--7-of-12 relative">
+			<div class="grid__col grid__col--7-of-12 relative" id="right">
 				<h1 id="welcome">Welcome!</h1>
 				<h2 id="welcome">My name is Andrei Masin. I am a programmer and this is my personal website.</h2>
 			</div>
@@ -103,13 +104,23 @@
 		var isTop = true;
         var avatar;
         var move;
+        var pos1;
 
 		function onScrolled() {
     		if (window.scrollY > 60 && isTop) {
 				isTop = false;
-				if(move) move.stop();
-				
+				if(move) {
+					move.stop();
+        			$("#left").stop();
+        			$("#margin-hide").stop();
+        			$("#avatar-small").stop();
+				}
     			var pos = $("#avatar-holder").offset();
+    			pos1 = $("#avatar-holder").position();
+        		//document.getElementById("left").style.display = 'none';
+        		$("#left").hide(200);
+        		$("#margin-hide").show(200);
+        		$("#avatar-small").show(200);
     			avatar = $("#avatar").detach();
     			$("body").prepend(avatar);
     			move = $("#avatar").css({
@@ -123,33 +134,45 @@
         			"width": 30, 
         			"height": 30,
         			"top": 10,
-        			"left": posLink.left + 15
+        			"left": posLink.left + 15,
+        			"marginLeft": 0
     			}, 200, function(){
         			document.getElementById("avatar").style.position = 'absolute';
         			document.getElementById("avatar").style.display = 'inline-block';
         			document.getElementById("avatar").style.top = 0;
+        			document.getElementById("avatar").style.left = 15;
         			document.getElementById("avatar").style.marginTop = 10;
         			document.getElementById("avatar").style.marginRight = 15;
         			document.getElementById("avatar").style.float = 'left';
         			document.getElementById("home-link").style.position = 'relative';
     				avatar.prependTo("#home-link");
-        			document.getElementById("avatar-small").style.display = 'inline-block';
-        			document.getElementById("avatar").style.display = 'none';
+        			//document.getElementById("avatar-small").style.display = 'inline-block';
+        			//document.getElementById("avatar").style.display = 'none';
     			});
     		} else if(window.scrollY <= 60 && !isTop) {
 				isTop = true;
-				if(move) move.stop();
-    			var pos = $("#avatar-holder").position();
+				if(move) {
+					move.stop();
+        			$("#left").stop();
+        			$("#margin-hide").stop();
+        			$("#avatar-small").stop();
+				}
+        		//document.getElementById("left").style.display = 'inline-block';
+        		$("#margin-hide").hide(200);
+        		$("#left").show(200);
+        		$("#avatar-small").hide(200);
+
     			move = $("#avatar").css({
     				"position": "absolute",
     				"display": "inline-block",
     				"left": 15, 
     				"top": -50 + window.scrollY,
+    				"marginLeft": 0,
         			"z-index": "999"
     			});
     			avatar.prependTo("#avatar-holder");
-        		document.getElementById("avatar-small").style.display = 'none';
-                move.animate({top: pos.top + 70, left: pos.left + 100, width:300, height:300, marginTop: 0, marginRight: 0}, 200, function(){
+        		//document.getElementById("avatar-small").style.display = 'none';
+                move.animate({top: pos1.top + 70, left: pos1.left + 125, width:250, height:250, marginTop: 0, marginRight: 0, marginLeft: 30}, 200, function(){
         			document.getElementById("avatar").style.position = 'static';
     			});
     		}
