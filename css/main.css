@@ -24,21 +24,32 @@ h1, h2, h3 {
 
 #nav-bar {
 	display: inline-block;
-	z-index:9999;
+	z-index:998;
     position: fixed;
     top: 0px;
     width: 100%;
 	width: 100%;
 	height: 50px;
 	background-color: #303F9F;
+	font-size: 0;
+	font-weight: 0;
 }
-	#home-link {    
-    	display: inline-block;
+
+	#avatar-small {
+    	float: left;
+    	margin-right: 15px;
+    	margin-top: 10px;
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+	}
+
+	#home-link {    	
+		display: inline-block;
     	padding-left: 15px;
     	padding-right: 15px;
-    	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     	font-size: 20px;
-    	font-weight: 500;
+    	font-weight: 400;
     	color: #FFFFFF;
     	height: 50px;
     	line-height: 50px;
@@ -83,7 +94,7 @@ h1, h2, h3 {
 	div.social-middle {
 		margin-left: auto;
 		margin-right: auto;
-		width: 500px;
+		width: 600px;
 		font-size: 0;
 	}
 
@@ -112,6 +123,15 @@ h1, h2, h3 {
 		width: 60px;
 		margin-top: 70px;
 		background-image:url(/images/gh.png);
+    	background-repeat: no-repeat;
+	}
+	
+	#up {
+		display: inline-block;
+		height: 80px;
+		width: 85px;
+		margin-top: 80px;
+		background-image:url(/images/up.png);
     	background-repeat: no-repeat;
 	}
 	

@@ -4,18 +4,22 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 <body>
 	<div id="nav-bar" class="shadow">
 		<div class="container">
-			<a href="#" id="home-link">Andrei Masin</a>
+			<a href="index.html" id="home-link">
+				<img src="images/me-small.jpg" id="avatar-small" style="display: none;"></img>
+				Andrei Masin
+			</a>
 			<div id="nav-menu">
 				<div class="nav-button selected">
-					<a href="index.html" id="nav-link">About Me</a>
+					<a href="#" id="nav-link">About Me</a>
 				</div>
 				<div class="nav-button fade">
-					<a href="resume.html" id="nav-link">Resume</a>
+					<a href="portfolio.html" id="nav-link">Portfolio</a>
 				</div>
 				<div class="nav-button fade">
 					<a href="contact.html" id="nav-link">Contact</a>
@@ -31,7 +35,8 @@
 		<div class="container">
 			<div class="grid__col grid__col--5-of-12">
 				<div id="avatar-holder">
-				<img src="images/me.jpg" id="avatar"></img></div>
+					<img src="images/me.jpg" id="avatar"></img>
+				</div>
 			</div>
 			<div class="grid__col grid__col--7-of-12 relative">
 				<h1 id="welcome">Welcome!</h1>
@@ -45,44 +50,124 @@
 
 			<h2 class="section-title">Information Technology<h2>
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.</p>
+			<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.</p>
 			<h3 class="skills">Skills<h2>
-			<div class="chip">Objective C (iOS Development)</div>
-			<div class="chip">Java (Android, JavaSE)</div>
-			<div class="chip">C++</div>
-			<div class="chip">C (Xlib)</div>
-			<div class="chip">HTML</div>
-			<div class="chip">CSS</div>
-			<div class="chip">JavaScript</div>
-			<div class="chip">PHP</div>
-			<div class="chip">MySQL</div>
-			<div class="chip">Assembly language</div>
+			<div class="chip"><p class="title">Objective C (iOS)</p></div>
+			<div class="chip"><p class="title">Java (Android, JavaSE)</p></div>
+			<div class="chip"><p class="title">C++</p></div>
+			<div class="chip"><p class="title">C (Xlib)</p></div>
+			<div class="chip"><p class="title">HTML</p></div>
+			<div class="chip"><p class="title">CSS</p></div>
+			<div class="chip"><p class="title">JavaScript</p></div>
+			<div class="chip"><p class="title">PHP</p></div>
+			<div class="chip"><p class="title">MySQL</p></div>
+			<div class="chip"><p class="title">Git</p></div>
 
 			<div class="separator"></div>
 
 			<h2 class="section-title">Athletics<h2>
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.</p>
+			<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur. Fusce nec leo ut massa viverra venenatis. Nam accumsan libero a elit aliquet quis ullamcorper arcu tincidunt. Praesent purus turpis, consectetur quis congue vel, pulvinar at lorem. Vivamus varius condimentum dolor, quis ultricies ipsum porta quis.</p>
 		</div>
 	</div>
 
 	<div id="footer">
 		<div class="container">
 			<div class="social-middle">
-				<div class="grid__col grid__col--1-of-4 center-text">
+				<div class="grid__col grid__col--1-of-5 center-text">
 					<a class="social-image" href="https://www.quora.com/Andrei-Masin" id="qu" target="_blank"></a>
 				</div>
-				<div class="grid__col grid__col--1-of-4 center-text">
+				<div class="grid__col grid__col--1-of-5 center-text">
 					<a class="social-image" href="https://github.com/McVlaga" id="gh" target="_blank"></a>
 				</div>
-				<div class="grid__col grid__col--1-of-4 center-text">
+				<div class="grid__col grid__col--1-of-5 center-text">
+					<a class="social-image" href="https://www.upwork.com/o/profiles/users/_~0111453c99603ce0af/" id="up" target="_blank"></a>
+				</div>
+				<div class="grid__col grid__col--1-of-5 center-text">
 					<a class="social-image" href="https://www.linkedin.com/pub/andrei-masin/71/962/441" id="li" target="_blank"></a>
 				</div>
-				<div class="grid__col grid__col--1-of-4 center-text">
+				<div class="grid__col grid__col--1-of-5 center-text">
 					<a class="social-image" href="http://stackoverflow.com/users/2603280/mcvlaga" id="so" target="_blank"></a>
 				</div>
 			</div>
 		</div>
 	</div>
 
+
+	<script type="text/javascript">
+		window.onscroll = function() {
+			onScrolled()
+		};
+
+		var isTop = true;
+
+		var bigAvaPos;
+        var bigAvaWid;
+        var bigAvaHei;
+        var avatar;
+        var avatar1;
+
+		function onScrolled() {
+    		if (window.scrollY > 70 && isTop) {
+				isTop = false;
+				bigAvaPos = $("#avatar").position();
+				bigAvaWid = $("#avatar").css("width");
+				bigAvaHei = $("#avatar").css("height");
+        		//document.getElementById("avatar-holder").className = 'anim-to-nav-bar';
+                var div2Pos = $("#avatar-small").offset();
+                var div2Width = $("#avatar-small").css("width");
+                var div2Height = $("#avatar-small").css("height");
+        		/*$('#avatar').css('position','fixed');
+                $("#avatar").animate({top:div2Pos.top, width:div2Width, height:div2Height}, 200, function() {
+        			document.getElementById("avatar-small").style.display = 'inline-block';
+  				});*/
+				
+    			var pos = $("#avatar-holder").offset();
+    			avatar = $("#avatar").detach();
+    			$("body").prepend(avatar);
+    			var move = $("#avatar").css({
+        			"position": "fixed",
+        			"z-index": "9999",
+        			"left": pos.left,
+        			"top": pos.top - 70
+    			});
+    			var posLink = $("#home-link").offset();
+    			move.animate({
+        			"width": div2Width, 
+        			"height": div2Height,
+        			"top": 10,
+        			"left": posLink.left + 15
+    			}, 150, function(){
+        			document.getElementById("avatar").style.position = 'static';
+        			document.getElementById("avatar").style.display = 'inline-block';
+        			document.getElementById("avatar").style.top = 0;
+        			document.getElementById("avatar").style.marginTop = 10;
+        			document.getElementById("avatar").style.marginRight = 15;
+        			document.getElementById("avatar").style.float = 'left';
+    				avatar.prependTo("#home-link");
+        			//document.getElementById("avatar-small").style.display = 'inline-block';
+        			//document.getElementById("avatar").style.display = 'none';
+    			});
+    		} else if(window.scrollY <= 70 && !isTop) {
+				isTop = true;
+				var huy = $("header").find(".container");
+				var huyPosition = huy.position();
+    			$("body").prepend(avatar1);
+    			var pos = $("#avatar-holder").offset();
+    			var scrollTop = $(window).scrollTop();
+    			//document.getElementById('avatar').style="";
+    			var posLink = $("#avatar").offset();
+    			var move = $("#avatar").css({
+    				"position": "fixed",
+    				"display": "inline-block",
+        			"z-index": "999"
+    			});
+                move.animate({top: pos.top, left: pos.left, width:300, height:300, marginTop: 0, marginRight: 0}, 150, function(){
+        			document.getElementById("avatar").style.position = 'static';
+    				avatar.prependTo("#avatar-holder");
+    			});
+        		//document.getElementById("avatar-holder").className = 'anim-from-nav-bar';
+    		}
+		}
+	</script>
 </body>
