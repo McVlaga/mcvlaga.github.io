@@ -152,21 +152,19 @@
 				isTop = true;
 				var huy = $("header").find(".container");
 				var huyPosition = huy.position();
-    			$("body").prepend(avatar1);
-    			var pos = $("#avatar-holder").offset();
-    			var scrollTop = $(window).scrollTop();
+    			var pos = $("#avatar-holder").position();
     			//document.getElementById('avatar').style="";
     			var posLink = $("#avatar").offset();
     			var move = $("#avatar").css({
-    				"position": "fixed",
+    				"position": "absolute",
     				"display": "inline-block",
+    				"left": 0,
         			"z-index": "999"
     			});
-                move.animate({top: pos.top, left: pos.left, width:300, height:300, marginTop: 0, marginRight: 0}, 150, function(){
+    			avatar.prependTo("#avatar-holder");
+                move.animate({top: pos.top + 70, left: pos.left + 100, width:300, height:300, marginTop: 0, marginRight: 0}, 150, function(){
         			document.getElementById("avatar").style.position = 'static';
-    				avatar.prependTo("#avatar-holder");
     			});
-        		//document.getElementById("avatar-holder").className = 'anim-from-nav-bar';
     		}
 		}
 	</script>
