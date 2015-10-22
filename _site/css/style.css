@@ -70,7 +70,7 @@
 	h3.skills {
 		padding: 0;
 		margin-top: 30px;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
     	font-size: 24px;
     	color: #3F51B5;
 	}
@@ -81,7 +81,8 @@
     		background: #e6e6e6;
     		height: 30px;
     		width: auto;
-			margin-right: 8px;
+			margin-right: 5px;
+			margin-top: 10px;
 			transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
 		}
 
