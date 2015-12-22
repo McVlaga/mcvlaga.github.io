@@ -1,0 +1,5 @@
+name: Blog
+markdown: redcarpet
+highlighter: true
+baseurl: /
+excerpt_separator: <!--more-->

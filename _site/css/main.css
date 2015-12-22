@@ -4,6 +4,11 @@ html, body {
 	font-family: "Roboto",sans-serif;
 }
 
+ul
+{
+    list-style-type: none;
+}
+
 h1, h2, h3 {
 	font-weight: 400;
 }
@@ -12,6 +17,15 @@ h1, h2, h3 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    height: inherit;
+	position: relative;
+}
+
+.container-blog {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    padding-right: 100px;
     height: inherit;
 	position: relative;
 }
