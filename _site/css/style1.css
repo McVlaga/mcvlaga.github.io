@@ -53,11 +53,11 @@
     		color: #3F51B5;
 		}
 
-		div.section p {
+		p {
+    		color: #212121;
+			line-height: 24px;
+    		font-size: 15px;
 			margin: 0;
-    		font-size: 14px;
-    		line-height: 20px;
-    		color: #000000;
 		}
 
 		.project-image {
