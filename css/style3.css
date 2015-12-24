@@ -1,8 +1,9 @@
 #header {
 	margin-top: 50px;
-	height: 240px;
+	height: 200px;
 	background-color: #3F51B5;
     font-size: 0px;
+    padding-bottom: 50px;
 }
 
 ul {
@@ -10,21 +11,39 @@ ul {
 }
 	
 	h1#start {
-		padding-top: 70px;
-    	padding-left: 14px;
 		margin: 0;
+    	top: -90px;
     	font-size: 50px;
     	color: #FFFFFF;
   		display: flex;
+  		position: absolute;
 	}
 
 	h2#start {
-    	padding-left: 14px;
+		padding: 40px;
 		margin-bottom: 0;
 		margin-top: 0;
-    	font-size: 26px;
-    	color: #C5CAE9;
+    	font-size: 24px;
+    	color: #3C4584;
+    	line-height: 36px;
 	}
+
+
+#card { 
+    border-radius: 3px;
+    background: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    width: 770px; 
+    height: 160px;
+    top: -160px;
+    margin-bottom: -120px;
+    position: relative;
+}
+
+#card-separator {
+	height: 1px;
+	background-color: #DDDDDD;
+}
 
 #section {
 	height: auto;
@@ -32,18 +51,6 @@ ul {
 	padding-bottom: 90px;
 	padding-top: 70px;
 }
-
-	#section h2 {
-    	display: inline-block;
-    	padding-left: 15px;
-    	padding-right: 15px;
-		margin-bottom: 0;
-		margin-top: 0;
-    	color: #000000;
-    	height: 50px;
-    	line-height: 50px;
-    	white-space: nowrap;
-	}
 
 	#section p {
 		margin-top: 0;

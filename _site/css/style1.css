@@ -29,34 +29,44 @@
 	padding-top: 30px;
 }
 
+#section1 {
+	margin-top: 50px;
+}
+
 	div.section {
 		display: inline-block;
 		vertical-align:top;
-		margin-top: 40px;
 		margin-left: 0;
 		margin-bottom: 0;
 		margin-right: 0;
 	}
 
-		div.section h1 {
-    		padding-left: 14px;
-			margin: 0;
-    		font-size: 35px;
-    		color: #000000;
+		h1.section-title {
+			margin: 0 0 30px 0;
+    		font-size: 34px;
+    		color: #3F51B5;
+		}
+
+		h2.section-subtitle {
+			margin: 0 0 30px 0;
+    		font-size: 24px;
+    		color: #3F51B5;
 		}
 
 		div.section p {
-    		padding-left: 14px;
-    		padding-top: 14px;
 			margin: 0;
     		font-size: 14px;
     		line-height: 20px;
     		color: #000000;
 		}
 
+		.project-image {
+			margin-bottom: 30px;
+		}
+
 	#section-overview {
 		display: inline-block;
-		margin-left: 50px;
+		margin-left: 80px;
 		padding-top: 30px;
 		height: 300px;
 		width: 300px;
@@ -89,3 +99,7 @@
 			margin-top: -280px;
 			position:fixed;
 		}
+
+.padding-left {
+	padding-left: 14px;
+}

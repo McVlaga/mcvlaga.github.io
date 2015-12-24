@@ -166,6 +166,19 @@ h1, h2, h3 {
 		background-image:url(/images/so.png);
     	background-repeat: no-repeat;
 	}
+
+#footer-footer {
+	height: 50px;
+	background-color: #303F9F;
+}
+	#copyright {
+		margin: 0;
+    	font-size: 15px;
+  		height: 50px;
+  		line-height: 50px;
+  		white-space: nowrap;
+    	color: #C5CAE9;
+	}
 	
 .center-text {
 	text-align: center;
