@@ -8,7 +8,7 @@
 
 <body>
 
-	<div id="nav-bar" class="shadow">
+	<div id="nav-bar">
 		<div class="container">
 			<a href="index.html" id="home-link">
 			<img src="images/me-small.jpg" id="avatar-small"></img>Andrei Masin</a>
@@ -218,6 +218,12 @@
 		var num2 = 0;
 
 		function onScrolled() {
+			if (window.scrollY > 240) {
+				document.getElementById("nav-bar").className = "shadow";
+			} else if (window.scrollY <= 240) {
+				document.getElementById("nav-bar").className = "";
+			}
+			
     		if (window.scrollY > 270 && isTop) {
 				isTop = false;
         		document.getElementById("section-overview").className = "fixed";

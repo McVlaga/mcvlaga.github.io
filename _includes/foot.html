@@ -22,4 +22,17 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		window.onscroll = function() {
+			onScrolled()
+		};
+
+		function onScrolled() {
+			if (window.scrollY > 240) {
+				document.getElementById("nav-bar").className = "shadow";
+			} else if (window.scrollY <= 240) {
+				document.getElementById("nav-bar").className = "";
+			}
+		}
+	</script>
 </body>

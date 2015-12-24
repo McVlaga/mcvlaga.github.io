@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<div id="nav-bar" class="shadow">
+	<div id="nav-bar">
 		<div class="container">
 			<a href="index.html" id="home-link">
 				<img src="images/me-small.jpg" id="avatar-small" style="display: none; opacity: 0;"></img>
@@ -125,6 +125,12 @@
         var pos1;
 
 		function onScrolled() {
+			if (window.scrollY > 400) {
+				document.getElementById("nav-bar").className = "shadow";
+			} else if (window.scrollY <= 400) {
+				document.getElementById("nav-bar").className = "";
+			}
+
     		if (window.scrollY > 60 && isTop) {
 				isTop = false;
 				if(move) {
