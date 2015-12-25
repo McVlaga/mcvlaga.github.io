@@ -197,6 +197,15 @@ So this is the most important thing we could do, the most important thing we cou
 							}
                 			$('#section-overview').html($(this).find('.section-overview').html());
 						}
+
+						var len = $set.length;
+						if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+    							//history.pushState(null, null, '#section' + this.id.slice(-1));
+    						num2 = len;
+    						history.pushState(null, null, '#section' + len);
+                			$('#section-overview').html($('#section' + len).find('.section-overview').html());
+						}
+
 						num1 = num2;
             		}
         		});
