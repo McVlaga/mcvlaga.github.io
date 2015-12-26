@@ -4,7 +4,7 @@ layout: default
 
 ![Google private message]({{ site.url }}/assets/google1.png)
 
-This is a private message I recently got on LinkedIn from a College Engineering Recruiter of Google. Very interesting, blah-blah-blah.
+This is a private message I recently got on LinkedIn from a College Engineering Recruiter of Google.
 
 <!--more-->
 
