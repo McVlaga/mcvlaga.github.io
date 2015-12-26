@@ -6,6 +6,11 @@
     padding-bottom: 50px;
 }
 
+h1 {
+    color: #3F51B5;
+    margin-bottom: 20px;
+}
+
 ul {
 	padding-left: 0px;
 }
@@ -55,7 +60,7 @@ ul {
 	#section p {
 		margin-top: 0;
     	line-height: 1.5;
-    	color: #555;
+    	color: #474747;
 		margin-bottom: 30px;
 	}
 	
@@ -69,6 +74,13 @@ ul {
     	font-size: 17px;
 		color: #3F51B5;
 	}
+
+.blog-title {
+    font-size: 32px;
+    color: #3F51B5;
+    padding-bottom: 20px;
+    display: inline-block;
+}
 	
 	.button:hover {
 		background-color: #3F51B5;
@@ -80,14 +92,34 @@ ul {
 	}
 	
 	.link {
-		color: #337ab7;
+		color: #FFFFFF;
 	}
 	
 	.link:hover {
     	text-decoration: underline;
-    	color: #1e476a;	
+    	color: #FFFFFF;	
 	}
 
 	.link:active {
-    	color: #1e476a;
+    	color: #FFFFFF;
 	}
+
+	/* unvisited link */
+a:link {
+    color: #3F51B5;
+}
+
+/* visited link */
+a:visited {
+    color: #673AB7;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF4081;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

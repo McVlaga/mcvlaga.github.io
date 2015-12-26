@@ -1,5 +1,5 @@
 name: Blog
 markdown: redcarpet
-highlighter: true
+pygments: true
 baseurl: /
 excerpt_separator: <!--more-->
