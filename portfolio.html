@@ -227,7 +227,7 @@ So this is the most important thing we could do, the most important thing we cou
     		$(window).on("scroll resize", function () {
         		var pos = $('#section-overview').offset();
         		$('.section').each(function (index) {
-					if (pos.top >= ($(this).offset().top - 40) && window.scrollY > 270) {
+					if (pos.top >= ($(this).offset().top - 90) && window.scrollY > 270) {
 						num2 = parseInt(this.id.slice(-1));
         				if(typeof $(this).next().offset() === 'undefined'){
     						history.pushState(null, null, '#section' + num2);
@@ -235,7 +235,7 @@ So this is the most important thing we could do, the most important thing we cou
 							num1 = num2;
         					return true;
 						}
-						else if (pos.top <= $(this).next().offset().top - 40) {
+						else if (pos.top <= $(this).next().offset().top - 20) {
 							if (num1 != num2) {
 								if(history.pushState) {
     								history.pushState(null, null, '#section' + this.id.slice(-1));
