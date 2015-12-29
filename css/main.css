@@ -207,3 +207,34 @@ a:active {
 a:hover {
     text-decoration: none;
 }
+
+
+
+		.chip {
+			display: inline-block;
+    		border-radius: 15px;
+    		background: #e6e6e6;
+    		height: 30px;
+    		width: auto;
+			margin-right: 5px;
+			margin-top: 10px;
+			transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
+		}
+
+		.chip .title{
+			margin: 0;
+			padding-right: 12px;
+			padding-left: 12px;
+    		font-size: 14px;
+    		width: auto;
+    		height: 30px;
+  			line-height: 30px;
+  			white-space: nowrap;
+			color: #555;
+			cursor: default;
+		}
+
+		.chip:hover {
+			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);  
+			transition-delay: 0s;
+		}
