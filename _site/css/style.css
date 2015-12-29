@@ -48,6 +48,7 @@
 	background-color: #FAFAFA;
 	padding-bottom: 50px;
 	padding-top: 50px;
+	overflow: auto;
 }
 
 	img.image {
@@ -61,7 +62,7 @@
     	color: #474747;
 		line-height: 24px;
     	font-size: 16px;
-    	width: 360px;
+    	width: 30%;
     	float: left;
 	}
 
