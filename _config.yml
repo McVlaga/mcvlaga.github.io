@@ -1,5 +1,5 @@
 name: Blog
-markdown: redcarpet
+markdown: kramdown
 baseurl: /
 url: https://mcvlaga.github.io
 excerpt_separator: <!--more-->
