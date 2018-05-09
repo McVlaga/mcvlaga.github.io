@@ -70,28 +70,28 @@
 				<p class="title"><b>PHONE</b></p>
 				<p class="subtitle">Panasonic</p>
 			</div>
+
 			<div class="grid__col grid__col--3-of-4">
 					<div class="textbox">
-						<input type="text" required>
+						<input id="name" type="text" required>
 						<span class="bar"></span>
 						<label>Name</label>
 					</div>
 
 					<div class="textbox">
-						<input type="text" required>
+						<input id="subject" type="text" required>
 						<span class="bar"></span>
-						<label>Email</label>
+						<label>Subject</label>
 					</div>
 
 					<div class="textbox">
-						<textarea type="text" required rows="5"></textarea>
+						<textarea id="message" type="text" required rows="5"></textarea>
 						<span class="bar"></span>
 						<label>Message</label>
 					</div>
 
 					<div class="button raised" fit>
-						<p class="noselect">SEND</p>
-						<img src="./images/send.png" class="send">
+            <a id="mail-link">SEND</a>
 					</div>
 			</div>
 		</div>
@@ -128,6 +128,7 @@
 	<script type="text/javascript">
 		window.onscroll = function() {
 			onScrolled()
+      loadEvents()
 		};
 
 		function onScrolled() {
@@ -137,5 +138,17 @@
 				document.getElementById("nav-bar").className = "";
 			}
 		}
+
+      function loadEvents() {
+          var mailString;
+          function updateMailString() {
+              mailString = '?subject=' + encodeURIComponent($('#subject').val())
+                  + '&body=' + encodeURIComponent($('#message').val());
+              $('#mail-link').attr('href',  'mailto:ata.benzona94@hotmail.com' + mailString);
+          }
+          $( "#subject" ).focusout(function() { updateMailString(); });
+          $( "#message" ).focusout(function() { updateMailString(); });
+          updateMailString();
+      }
 	</script>
 </body>
