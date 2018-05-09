@@ -104,3 +104,63 @@ p {
 .padding-left {
   padding-left: 14px;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 991px) {
+
+	#header {
+		margin-top: 100px;
+	}
+
+  #section-overview {
+    display: none;
+  }
+
+
+  h1#start {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+
+  h2#start {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+	#section {
+	  padding-left: 80px;
+	  padding-right: 80px;
+	}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+
+	#header {
+		margin-top: 50px;
+	}
+
+  #section-overview {
+    display: inline-block;
+  }
+
+
+  h1#start {
+    padding-left: 14px;
+    padding-right: 0px;
+  }
+
+
+  h2#start {
+    padding-left: 14px;
+    padding-right: 0px;
+  }
+	#section {
+	  padding-left: 0px;
+	  padding-right: 0px;
+	}
+}
