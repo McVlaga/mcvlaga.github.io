@@ -4,7 +4,7 @@
 	background-color: #3F51B5;
     font-size: 0px;
 }
-	
+
 	h1#start {
 		padding-top: 70px;
     	padding-left: 14px;
@@ -34,7 +34,6 @@
     	padding-left: 15px;
     	padding-right: 15px;
 		margin-bottom: 0;
-		margin-top: 0;
     	color: #000000;
     	height: 50px;
     	line-height: 50px;
@@ -42,12 +41,12 @@
 	}
 
 .title {
-	margin-bottom: 10px;
 }
 
 .subtitle {
 
 	margin: 0;
+		margin-top: 10px;
 }
 
 #contact-form {
@@ -56,8 +55,8 @@
 	height: 520px;
 }
 
-	.textbox { 
-		position:relative; 
+	.textbox {
+		position:relative;
 		margin-bottom:45px;
 		top: 10%;
 	}
@@ -80,14 +79,14 @@
 	textarea:focus     { outline:none; }
 
 	label {
-  		color:#999; 
+  		color:#999;
   		font-size:18px;
   		font-weight:normal;
   		position:absolute;
   		pointer-events:none;
   		left:10%;
   		top:10px;
-  		transition:0.2s ease all; 
+  		transition:0.2s ease all;
 	}
 
 	/* active state */
@@ -102,24 +101,24 @@
   		color:#FF4081;
 	}
 
-	.bar  { position:relative; display:block; 
+	.bar  { position:relative; display:block;
 		margin: 0 auto;
   		width: 80%; }
 
 	.bar:before, .bar:after   {
   		content:'';
-  		height:2px; 
+  		height:2px;
   		width:0;
-  		bottom:0px; 
+  		bottom:0px;
   		position:absolute;
-  		background:#FF4081; 
-  		transition:0.2s ease all; 
+  		background:#FF4081;
+  		transition:0.2s ease all;
 	}
 	.bar:before {
   		left:50%;
 	}
 	.bar:after {
-  		right:50%; 
+  		right:50%;
 	}
 
 	/* active state */
@@ -131,10 +130,10 @@
 	textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {
   		width:50%;
 	}
-    
+
     /* Button */
     .button {
-    	
+
     	text-align: center;
 		display: inline-block;
 		position: relative;
@@ -155,13 +154,13 @@
 		white-space: nowrap;
 		display: inline-block;
 	}
-    
+
     .button.raised {
     	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     	transition-delay: 0.2s;
     	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     }
-    
+
     .button.raised:active {
     	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
     	transition-delay: 0s;
@@ -171,14 +170,14 @@
     	margin-bottom: 5px;
     	vertical-align: middle;
     }
-	
+
 	.link {
 		color: #337ab7;
 	}
-	
+
 	.link:hover {
     	text-decoration: underline;
-    	color: #1e476a;	
+    	color: #1e476a;
 	}
 
 	.link:active {
