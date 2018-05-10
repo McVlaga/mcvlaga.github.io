@@ -120,7 +120,10 @@
 
 	<script type="text/javascript">
 		window.onscroll = function() {
-			onScrolled()
+      if(window.innerWidth > 992){
+
+          onScrolled()
+    }
 		};
 
 		var isTop = true;
